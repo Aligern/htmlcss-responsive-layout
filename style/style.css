@@ -97,9 +97,7 @@ header nav a {
     display: block;
     padding: 5px 10px;
 }
-header img {
-    width: 50%;
-}
+
 main {
     padding-top: 70px;
 }
@@ -142,6 +140,11 @@ footer {
     aspect-ratio: 1/1;
     overflow: hidden;
 }
+/* paragraph margin */
+#features p, #benefits p, #about-us p {
+    margin-bottom: 20px;
+}
+
 /* utility */
 /* btn shape */
 .btn-padding {
@@ -149,6 +152,9 @@ footer {
 }
 .arrow-padding {
     padding: 8px 10px;
+}
+.linkedin-btn {
+    padding: 7px;
 }
     /* background */
 .even {
@@ -163,6 +169,7 @@ footer {
 .bg-btn {
     background-color: var(--color-nav);
 }
+
 /* text */
 .text-light {
     color: var(--color-bg-color-white);
@@ -188,6 +195,7 @@ footer {
 .f-weight {
     font-weight: 700;
 }
+
 /* flex utility */
 .d-flex {
     display: flex;
@@ -197,16 +205,17 @@ footer {
 @media screen and (min-width: 768px) {
     header nav:hover ul {
         display: flex;
+        flex-direction: column;
     }
     header nav ul {
         position: static;
-        display: flex;
+        display: none;
         justify-content: flex-end;
         align-items: center;
         width: 100%;
     }
     i.fa-solid.fa-bars{
-        display: none;
+        display: block;
     }
     #features .container {
         display: flex;
@@ -228,7 +237,6 @@ footer {
     .img-content img{
        width: 80%;
     }
-
     #testimonial .card {
         display: flex;
     }
@@ -236,7 +244,6 @@ footer {
         text-align: start;
         margin-top: 40px;
     }
-
     #benefits .container {
         display: flex;
         flex-wrap: wrap;
@@ -253,4 +260,33 @@ footer {
     }
 }
 
-
+@media screen and (min-width: 1200px) {
+    header nav {
+        pointer-events: none;
+    }
+    header nav ul{
+        display: flex;
+    }
+    header nav ul li{
+        padding: 0px 10px;
+    }
+    i.fa-solid.fa-bars {
+        display: none;
+    }
+    #features  {
+        padding: 50px 100px;
+    }
+    #planning .container{
+        display: flex;
+        padding: 100px;
+    }
+    #testimonial  .container{
+        padding: 50px 100px;
+    }
+    #testimonial .card {
+        align-items: center;
+    }
+    #benefits .card{
+        width: calc(100% / 3 - 20px);
+    }
+}
