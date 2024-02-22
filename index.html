@@ -1,174 +1,345 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link rel="stylesheet" href="style/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style/style.css" />
     <title>Responsive Layout</title>
-</head>
+  </head>
 
-<body>    
+  <body>
     <!-- header -->
-<header>
-    <div id="logo" class="debug">
-        <img src="./img/logo.png" alt="Logo">
-    </div>
-    <nav class="debug">
+    <header>
+      <div id="logo" class="debug">
+        <img src="./img/logo.png" alt="Logo" />
+      </div>
+      <nav class="debug">
         <i class="fa-solid fa-bars"></i>
         <ul>
-            <li><a href="#planning"></a>Planning</li>
-            <li><a href="#testimonial"></a>Testimonial</li>
-            <li><a href="#feature"></a>Features</li>
-            <li><a href="#about-us"></a>About-Us</li>
-            <li><a href="#cta"></a>Get Started</li>
+          <li><a href="#planning"></a>Planning</li>
+          <li><a href="#testimonial"></a>Testimonial</li>
+          <li><a href="#feature"></a>Features</li>
+          <li><a href="#about-us"></a>About-Us</li>
+          <li><a href="#cta"></a>Get Started</li>
         </ul>
-    </nav>
-</header>
-<!-- main -->
-<main>
-    <!-- features -->
-    <section id="features">
+      </nav>
+    </header>
+    <!-- main -->
+    <main>
+      <!-- features -->
+      <section id="features">
         <div class="container debug">
-            <div class="card small-rounded bg-light">
-                    <div class="text-content">
-                        <h3 class="text-blue">
-                            Get a demo application
-                        </h3>
-                        <p>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis repellendus aliquid quidem, explicabo doloribus possimus atque quos nihil enim odio!
-                        </p>
-                        <a href="#">
-                            <i class="fa-brands fa-apple"></i> 
-                            <span>
-                                App Store 
-                            </span> 
-                        </a>
-                    </div>
-                <div class="img-content">
-                    <img src="./img/phone.png" alt="Phone">
-                </div>
+          <div class="card small-rounded bg-light">
+            <div class="text-content">
+              <h3 class="text-blue">Get a demo application</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Officiis repellendus aliquid quidem, explicabo doloribus
+                possimus atque quos nihil enim odio!
+              </p>
+              <a href="#">
+                <i class="fa-brands fa-apple"></i>
+                <span> App Store </span>
+              </a>
             </div>
-            <div class="card small-rounded bg-light text-center ">
-                <i class="icon fa-solid fa-file-code text-blue"></i>
-                <h3 class="text-blue">Clean code</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam eius quaerat magnam ipsa quidem aliquid et repellat maiores, reiciendis modi!</p>
+            <div class="img-content">
+              <img src="./img/phone.png" alt="Phone" />
             </div>
-            <div class="card small-rounded bg-light text-center ">
-                <i class="icon fa-solid fa-compass-drafting text-blue"></i>
-                <h3 class="text-blue">Clean code</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam eius quaerat magnam ipsa quidem aliquid et repellat maiores, reiciendis modi!</p>
-            </div>
-            <div class="card small-rounded bg-light text-center ">
-                <i class="icon fa-solid fa-laptop-code text-blue"></i>
-                <h3 class="text-blue">Clean code</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam eius quaerat magnam ipsa quidem aliquid et repellat maiores, reiciendis modi!</p>
-            </div>
-            <div class="card small-rounded bg-light text-center ">
-                <i class="icon fa-solid fa-bullhorn text-blue"></i>
-                <h3 class="text-blue">Clean code</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam eius quaerat magnam ipsa quidem aliquid et repellat maiores, reiciendis modi!</p>
-            </div>
+          </div>
+          <div class="card small-rounded bg-light text-center">
+            <i class="icon fa-solid fa-file-code text-blue"></i>
+            <h3 class="text-blue">Clean code</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              eius quaerat magnam ipsa quidem aliquid et repellat maiores,
+              reiciendis modi!
+            </p>
+          </div>
+          <div class="card small-rounded bg-light text-center">
+            <i class="icon fa-solid fa-compass-drafting text-blue"></i>
+            <h3 class="text-blue">Clean code</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              eius quaerat magnam ipsa quidem aliquid et repellat maiores,
+              reiciendis modi!
+            </p>
+          </div>
+          <div class="card small-rounded bg-light text-center">
+            <i class="icon fa-solid fa-laptop-code text-blue"></i>
+            <h3 class="text-blue">Clean code</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              eius quaerat magnam ipsa quidem aliquid et repellat maiores,
+              reiciendis modi!
+            </p>
+          </div>
+          <div class="card small-rounded bg-light text-center">
+            <i class="icon fa-solid fa-bullhorn text-blue"></i>
+            <h3 class="text-blue">Clean code</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              eius quaerat magnam ipsa quidem aliquid et repellat maiores,
+              reiciendis modi!
+            </p>
+          </div>
         </div>
-    </section>
-    <!-- planning -->
-    <section id="planning" class="even">
+      </section>
+      <!-- planning -->
+      <section id="planning" class="even">
         <div class="container debug">
-            <div class="card text-light">
-                <img src="./img/planning1.png" alt="planning1">
-                <h3>Strategic Planning</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo quisquam exercitationem, neque placeat tempore illum odio eaque vitae labore aliquid.
-                </p>
+          <div class="card text-light">
+            <img src="./img/planning1.png" alt="planning1" />
+            <h3>Strategic Planning</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo
+              quisquam exercitationem, neque placeat tempore illum odio eaque
+              vitae labore aliquid.
+            </p>
+          </div>
+          <div class="card bg-white small-rounded text-center">
+            <img src="./img/planning2.png" alt="planning2" />
+            <h3>App Development</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo
+              quisquam exercitationem, neque placeat tempore illum odio eaque
+              vitae labore aliquid.
+            </p>
+            <div class="even big-rounded">
+              <i class="fa-solid fa-arrow-down"></i>
             </div>
-            <div class="card bg-white small-rounded text-center">
-                <img src="./img/planning2.png" alt="planning2">
-                <h3>App Development</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo quisquam exercitationem, neque placeat tempore illum odio eaque vitae labore aliquid.
-                </p>
-                <div class="even big-rounded">
-                    <i class="fa-solid fa-arrow-down"></i>
-                </div>
-            </div>
+          </div>
         </div>
-    </section>
-
-    <section id="testimonial">
+      </section>
+      <!-- testimonial -->
+      <section id="testimonial">
         <div class="container debug">
-            <div class="text-center">
-                <span>TESTIMONIALS</span>
-                <h3 class="text-vivid">We are committed expert partners</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, culpa debitis. Minima doloribus possimus eos dignissimos! Et earum nostrum quas?
-                </p>
+          <div class="text-center">
+            <span>TESTIMONIALS</span>
+            <h3 class="text-vivid">We are committed expert partners</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla,
+              culpa debitis. Minima doloribus possimus eos dignissimos! Et earum
+              nostrum quas?
+            </p>
+          </div>
+          <div class="even text-light card small-rounded text-center">
+            <div class="box-img circle">
+              <img src="./img/testimonial1.jpg" alt="Testimonial1" />
             </div>
-            <div class="even text-light card small-rounded text-center">
-                <div class="box-img circle">
-                    <img src="./img/testimonial1.jpg" alt="Testimonial1">
-                </div>
-                <p>
-                    <i class="fa-solid fa-quote-left"></i>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus perferendis aspernatur odio voluptatum nobis alias quos amet esse, illo magnam.
-                    <i class="fa-solid fa-quote-right"></i>
-                </p>
-                <span>
-                    NAT REYNOLDS
-                </span>
+            <p>
+              <i class="fa-solid fa-quote-left"></i>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+              perferendis aspernatur odio voluptatum nobis alias quos amet esse,
+              illo magnam.
+              <i class="fa-solid fa-quote-right"></i>
+            </p>
+            <span> NAT REYNOLDS </span>
+          </div>
+          <div class="even text-light card small-rounded text-center">
+            <div class="box-img circle">
+              <img src="./img/testimonial2.jpg" alt="Testimonial2" />
             </div>
-            <div class="even text-light card small-rounded text-center">
-                <div class="box-img circle">
-                    <img src="./img/testimonial2.jpg" alt="Testimonial2">
-                </div>
-                <p>
-                    <i class="fa-solid fa-quote-left"></i>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus architecto nihil ipsam quos quae tempore dolor blanditiis fuga molestias neque.
-                    <i class="fa-solid fa-quote-right"></i>
-                </p>
-                <span>
-                    Celia Almeda
-                </span>
+            <p>
+              <i class="fa-solid fa-quote-left"></i>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Temporibus architecto nihil ipsam quos quae tempore dolor
+              blanditiis fuga molestias neque.
+              <i class="fa-solid fa-quote-right"></i>
+            </p>
+            <span> Celia Almeda </span>
+          </div>
+          <div class="even text-light card small-rounded text-center">
+            <div class="box-img circle">
+              <img src="./img/testimonial3.jpg" alt="Testimonial3" />
             </div>
-            <div class="even text-light card small-rounded text-center">
-                <div class="box-img circle">
-                    <img src="./img/testimonial3.jpg" alt="Testimonial3">
-                </div>
-                <p>
-                    <i class="fa-solid fa-quote-left"></i>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat debitis a et aut fugit recusandae quae libero corrupti sint explicabo.
-                    <i class="fa-solid fa-quote-right"></i>
-                </p>
-                <span>
-                    Bob Roberts
-                </span>
-            </div>
+            <p>
+              <i class="fa-solid fa-quote-left"></i>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat
+              debitis a et aut fugit recusandae quae libero corrupti sint
+              explicabo.
+              <i class="fa-solid fa-quote-right"></i>
+            </p>
+            <span> Bob Roberts </span>
+          </div>
         </div>
-    </section>
-
-    <section id="benefits" class="even">
+      </section>
+      <!-- benefits -->
+      <section id="benefits" class="even">
         <div class="container debug">
-        features
+          <div class="card bg-white text-vivid small-rounded">
+            <!-- card 1 -->
+            <span> 01 </span>
+            <h4>High QUality</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quos
+              est minima facere itaque nisi fugit quibusdam natus, a quae ullam
+              eligendi fuga praesentium delectus debitis necessitatibus eos quo
+              aperiam?
+            </p>
+            <div class="even small-rounded text-center">
+              <a href=""> more </a>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div class="card bg-white text-vivid small-rounded">
+            <span> 02 </span>
+            <h4>High QUality</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quos
+              est minima facere itaque nisi fugit quibusdam natus, a quae ullam
+              eligendi fuga praesentium delectus debitis necessitatibus eos quo
+              aperiam?
+            </p>
+            <div class="even small-rounded text-center">
+              <a href=""> more </a>
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div class="card bg-white text-vivid small-rounded">
+            <span> 03 </span>
+            <h4>High QUality</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quos
+              est minima facere itaque nisi fugit quibusdam natus, a quae ullam
+              eligendi fuga praesentium delectus debitis necessitatibus eos quo
+              aperiam?
+            </p>
+            <div class="even small-rounded text-center">
+              <a href=""> more </a>
+            </div>
+          </div>
+          <!-- card 4 -->
+          <div class="card bg-white text-vivid small-rounded">
+            <span> 04 </span>
+            <h4>High QUality</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quos
+              est minima facere itaque nisi fugit quibusdam natus, a quae ullam
+              eligendi fuga praesentium delectus debitis necessitatibus eos quo
+              aperiam?
+            </p>
+            <div class="even small-rounded text-center">
+              <a href=""> more </a>
+            </div>
+          </div>
+          <!-- card 5 -->
+          <div class="card bg-white text-vivid small-rounded">
+            <span> 05 </span>
+            <h4>High QUality</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quos
+              est minima facere itaque nisi fugit quibusdam natus, a quae ullam
+              eligendi fuga praesentium delectus debitis necessitatibus eos quo
+              aperiam?
+            </p>
+            <div class="even small-rounded text-center">
+              <a href=""> more </a>
+            </div>
+          </div>
+          <!-- card 6 -->
+          <div class="card bg-white text-vivid small-rounded">
+            <span> 06 </span>
+            <h4>High QUality</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quos
+              est minima facere itaque nisi fugit quibusdam natus, a quae ullam
+              eligendi fuga praesentium delectus debitis necessitatibus eos quo
+              aperiam?
+            </p>
+            <div class="even small-rounded text-center">
+              <a href=""> more </a>
+            </div>
+          </div>
         </div>
-    </section>
-
-    <section id="benefits">
+      </section>
+      <!-- about us -->
+      <section id="about-us">
         <div class="container debug">
-            benefits
+            <h2>About Us</h2>
+            <!-- paragraph 1 -->
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum
+              ratione omnis laboriosam rem voluptate! Fugit commodi, delectus
+              consequatur tenetur, rem dicta voluptatibus modi minus molestias
+              nam voluptate maiores, exercitationem nemo nisi quas quae!
+              Recusandae voluptas, reiciendis officiis, non perspiciatis rerum
+              labore nihil nam placeat repellat praesentium error! Non, sunt?
+              Quae!
+            </p>
+            <!-- paragraph 2 -->
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Provident aliquam natus veniam laudantium minima fugiat sed sit
+              cum ipsam, ratione animi qui atque voluptatum nam dolore vero?
+              Fugiat sequi consequatur nostrum ipsam architecto vero optio.
+            </p>
+            <div>
+              <div class="box-img-about circle">
+                <img src="./img/about.jpg" alt="about">
+              </div>
+              <div>
+                  <i class="text-vivid fa-solid fa-quote-left"></i>
+              </div>
+              <div>
+                <p>
+                  I help companies Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit.
+                </p>
+              </div>
+              <a class="even small-rounded" href="">
+                <i class="fa-brands fa-linkedin"></i>
+                <span> find me on linkedin </span>
+              </a>
+            </div>
+          </div>
+      </section>
+
+      <section id="cta" class="even text-light text-center debug">
+        <div class="container">
+            <span>Get started</span>
+            <h4>Simple, Trasparent Pricing</h4>
+            <h4 class="text-cta">It's Free</h4>
+            <p>We're still in beta and we will be for awhile. As we add more fucntionality, we'll look into other plans with more controls.</p>
+            <div>
+                <a href="">Get Started</a>
+            </div>
+            <span>
+                Copyright 2021 Boolean . Classe XX . <a href="">Privacy policy</a>
+            </span>
         </div>
-    </section>
-
-    <section id="cta" class="even debug">
-        get started
-    </section>
-</main>
-<!-- footer -->
-<footer class="debug">
-    footer
-</footer>
-
-
-</body>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="debug">
+        <div class="container text-center">
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat veniam velit ea quod iusto natus?
+            </p>
+        </div>
+        <div class="text-center">
+            <a href="">
+                Lorem ipsum
+            </a>
+             <span>
+                Lorem, ipsum dolor
+             </span>
+             <a href="#">
+                Boolean careers
+            </a>
+        </div>
+    </footer>
+  </body>
 </html>
