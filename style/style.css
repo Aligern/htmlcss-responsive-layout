@@ -276,6 +276,7 @@ footer {
     #features  {
         padding: 50px 100px;
     }
+    
     #planning .container{
         display: flex;
         padding: 100px;
@@ -288,5 +289,8 @@ footer {
     }
     #benefits .card{
         width: calc(100% / 3 - 20px);
+    }
+    .box-img {
+        width: 25%;
     }
 }
